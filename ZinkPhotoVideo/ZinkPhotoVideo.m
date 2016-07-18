@@ -62,18 +62,20 @@
                                     complete:(void(^)(UIImage *image))completeBlock
                                       cancel:(void(^)())cancelBlock {
     __weak typeof(self) weakSelf = self;
-    [ZinkAlertActionSheet zinkActionSheetShowInView:vc.view
-                                          withTitle:@"请选择图片来源"
-                                            message:nil
-                                       cancelButton:@"取消"
-                                       otherButtons:@[@"相册", @"拍摄"]
-                                           callBack:^(NSInteger index) {
-                                               if (index == 1) {
-                                                   [weakSelf zinkShowPhotoFromLibraryInController:vc finish:completeBlock cancel:cancelBlock];
-                                               } else if (index == 2) {
-                                                   [weakSelf zinkShowPhotoFromCameraInController:vc finish:completeBlock cancel:cancelBlock];
-                                               }
-                                           }];
+    
+    [ZinkAlertActionSheet zinkActionSheetShowInController:vc
+                                                    title:@"请选择图片来源"
+                                                  message:nil
+                                             cancelButton:@"取消"
+                                        destructiveButton:nil
+                                             otherButtons:@[@"相册", @"拍摄"]
+                                                 callBack:^(NSInteger index) {
+                                                     if (index == 1) {
+                                                         [weakSelf zinkShowPhotoFromLibraryInController:vc finish:completeBlock cancel:cancelBlock];
+                                                     } else if (index == 2) {
+                                                         [weakSelf zinkShowPhotoFromCameraInController:vc finish:completeBlock cancel:cancelBlock];
+                                                     }
+                                                 }];
 }
 
 /**********************************************视频**********************************************/
@@ -110,18 +112,20 @@
                                     complete:(void(^)(NSURL *url))completeBlock
                                       cancel:(void(^)())cancelBlock {
     __weak typeof(self) weakSelf = self;
-    [ZinkAlertActionSheet zinkActionSheetShowInView:vc.view
-                                          withTitle:@"请选择视频来源"
-                                            message:nil
-                                       cancelButton:@"取消"
-                                       otherButtons:@[@"相册", @"拍摄"]
-                                           callBack:^(NSInteger index) {
-                                               if (index == 1) {
-                                                   [weakSelf zinkShowVideoFromLibraryInController:vc finish:completeBlock cancel:cancelBlock];
-                                               } else if (index == 2) {
-                                                   [weakSelf zinkShowVideoFromCameraInController:vc finish:completeBlock cancel:cancelBlock];
-                                               }
-                                           }];
+    [ZinkAlertActionSheet zinkActionSheetShowInController:vc
+                                                    title:@"请选择视频来源"
+                                                  message:nil
+                                             cancelButton:@"取消"
+                                        destructiveButton:nil
+                                             otherButtons:@[@"相册", @"拍摄"]
+                                                 callBack:^(NSInteger index) {
+                                                     if (index == 1) {
+                                                         [weakSelf zinkShowVideoFromLibraryInController:vc finish:completeBlock cancel:cancelBlock];
+                                                     } else if (index == 2) {
+                                                         [weakSelf zinkShowVideoFromCameraInController:vc finish:completeBlock cancel:cancelBlock];
+                                                     }
+                                                 }];
+    
 }
 
 /********************************************************************************************/

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8BA6E680D786C1F5E8E6FE41'
+               BlueprintIdentifier = '91DFEE9FD23BB2419C16509D'
                BlueprintName = 'ZinkAlertActionSheet'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libZinkAlertActionSheet.a'>

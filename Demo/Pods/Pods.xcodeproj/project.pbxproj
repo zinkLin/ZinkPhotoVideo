@@ -10,6 +10,20 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>00CEB16CC0A0226469C00BE2EA0538FF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FDF75E362CDF21EAB16F2A31DF8F77DF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>036D3334A7850C948EE9037A036227CD</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -127,6 +141,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>08C9B6FEFFCA57EA6D7326C5CD3A9D50</key>
+		<dict>
+			<key>fileRef</key>
+			<string>68B949EEB2F94FE83A4F6C5F3D2B6BCB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>0C877B622FC791E6D4AE2A733F71F58A</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -155,15 +183,22 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>132EB81118362F1D383FB76C43E6D52D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1F63DF9A19C12B548C7E73FA32E0F3E9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>16CF86F9782BA34DAE2A061C21972DE9</key>
 		<dict>
 			<key>buildConfigurationList</key>
 			<string>86C2601DD9E1D3E553A9434A68E277DD</string>
 			<key>buildPhases</key>
 			<array>
-				<string>6DC73D86625B59F83B4C7398BED63914</string>
+				<string>9AAE5DB3FBEFCF81BBE0FD05171E5E27</string>
 				<string>7F728506BAADCBE7B41FCD18B4DB8D19</string>
-				<string>586913A6FAA13A5930A2069150D5192F</string>
+				<string>83EBDCA163585EF373D84A87E7B4087B</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -187,23 +222,38 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>1DCCC16C0BB4984F57B5406F05AA577C</key>
+		<key>1F63DF9A19C12B548C7E73FA32E0F3E9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>ZinkAlertActionSheet.xcconfig</string>
+			<string>ZinkAlertActionSheet-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F8D7C319B41BAAC1DE1234B93FC183F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ZinkAlertActionSheet.m</string>
+			<key>path</key>
+			<string>ZinkAlertActionSheet/ZinkAlertActionSheet.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>25898E26DF0171B0A8F12B7F7FC52D01</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>1DCCC16C0BB4984F57B5406F05AA577C</string>
+			<string>7872F0C86AA791DE3FC4A3D36155B206</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -234,19 +284,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>268DB431D6E759C434681A4247591142</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ZinkAlertActionSheet-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>272643F56613CA0D336AE3DBF19DC404</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -259,13 +296,6 @@
 			<string>Pods-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>291ADD768677D6F55151481F445301DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DDD743C09F769201EDB4096E84B8D63B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>2B27E3E2238CBD37E7C4041D2F455611</key>
 		<dict>
@@ -294,6 +324,23 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>32FD92A4E98C7A8BC212BDA60FE2F3C2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7872F0C86AA791DE3FC4A3D36155B206</string>
+				<string>1F63DF9A19C12B548C7E73FA32E0F3E9</string>
+				<string>F6E92463C7B61F71B9A14E8C9F9E2481</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/ZinkAlertActionSheet</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>37DB56D75062CC75FCB0966E1C6E8A8E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -307,6 +354,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>3C1E0D6C983BDDFABF7FBFF9E0E751C3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>410A6565FBC3AC9CCB4C1276D55BDFF2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>3E4E89230EF59BC255123B67864ACF77</key>
 		<dict>
 			<key>isa</key>
@@ -319,6 +373,21 @@
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>410A6565FBC3AC9CCB4C1276D55BDFF2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ZinkAlertAction.m</string>
+			<key>path</key>
+			<string>ZinkAlertActionSheet/ZinkAlertAction.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4E762F23EC34ED4A6FF3312D84E33A40</key>
 		<dict>
@@ -345,13 +414,6 @@
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>53055FC6003CAF8E34F33982C9CCC3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>268DB431D6E759C434681A4247591142</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>546A5F0D89901872B54C4FA4FA51FF6C</key>
 		<dict>
@@ -385,20 +447,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>586913A6FAA13A5930A2069150D5192F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E5678755E16F415B316E6FE2E4795A8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>58FD05E1439504EADA85F4AA40CB3184</key>
+		<key>68B949EEB2F94FE83A4F6C5F3D2B6BCB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -406,8 +455,10 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ZinkAlertAction.h</string>
 			<key>path</key>
-			<string>ZinkAlertActionSheet-prefix.pch</string>
+			<string>ZinkAlertActionSheet/ZinkAlertAction.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -423,20 +474,6 @@
 			<string>Pods-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6DC73D86625B59F83B4C7398BED63914</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>53055FC6003CAF8E34F33982C9CCC3CF</string>
-				<string>291ADD768677D6F55151481F445301DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>71EA3D4C5E0C9B2C809362CF183B1326</key>
 		<dict>
@@ -464,13 +501,26 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
+		<key>7872F0C86AA791DE3FC4A3D36155B206</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>ZinkAlertActionSheet.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>C9731BA9D761C0CEA605B6BFF6DF3768</string>
+				<string>8AC0A01B880B05CE925F8DE8EFA190A2</string>
 				<string>0840BF2E23DAF7334AFFC759C2AC2AA4</string>
 				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
 			</array>
@@ -492,6 +542,20 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>83EBDCA163585EF373D84A87E7B4087B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>08C9B6FEFFCA57EA6D7326C5CD3A9D50</string>
+				<string>00CEB16CC0A0226469C00BE2EA0538FF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>86C2601DD9E1D3E553A9434A68E277DD</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -505,6 +569,19 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>8AC0A01B880B05CE925F8DE8EFA190A2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B7C38BE3C9D8897F374EFA524B25AA1A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>90BFF0A25B857203909E05C69814CD70</key>
 		<dict>
@@ -551,23 +628,6 @@
 			<key>remoteInfo</key>
 			<string>ZinkAlertActionSheet</string>
 		</dict>
-		<key>94FDF62438929CB05F8EDE6A0D732F3B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1DCCC16C0BB4984F57B5406F05AA577C</string>
-				<string>268DB431D6E759C434681A4247591142</string>
-				<string>58FD05E1439504EADA85F4AA40CB3184</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/ZinkAlertActionSheet</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -580,6 +640,21 @@
 			<string>Pods.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9AAE5DB3FBEFCF81BBE0FD05171E5E27</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3C1E0D6C983BDDFABF7FBFF9E0E751C3</string>
+				<string>132EB81118362F1D383FB76C43E6D52D</string>
+				<string>EF058703A6AC0B3897A09F102F228754</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>9C34DFEA6D5BB2CB6CBCF40101389109</key>
 		<dict>
@@ -614,23 +689,6 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
-		</dict>
-		<key>AD44A88FBADB24FF419B54FABA48A574</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F5E3AA2C80AB92351CC80420663126EB</string>
-				<string>DDD743C09F769201EDB4096E84B8D63B</string>
-				<string>94FDF62438929CB05F8EDE6A0D732F3B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ZinkAlertActionSheet</string>
-			<key>path</key>
-			<string>ZinkAlertActionSheet</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B37F0F91F85060E28F1DAAB522DC7EC1</key>
 		<dict>
@@ -729,7 +787,7 @@
 		<key>B782EE9D3608ED2898BF7192FB7E4AEC</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>1DCCC16C0BB4984F57B5406F05AA577C</string>
+			<string>7872F0C86AA791DE3FC4A3D36155B206</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -759,6 +817,25 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
+		</dict>
+		<key>B7C38BE3C9D8897F374EFA524B25AA1A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>68B949EEB2F94FE83A4F6C5F3D2B6BCB</string>
+				<string>410A6565FBC3AC9CCB4C1276D55BDFF2</string>
+				<string>FDF75E362CDF21EAB16F2A31DF8F77DF</string>
+				<string>1F8D7C319B41BAAC1DE1234B93FC183F</string>
+				<string>32FD92A4E98C7A8BC212BDA60FE2F3C2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ZinkAlertActionSheet</string>
+			<key>path</key>
+			<string>ZinkAlertActionSheet</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -814,19 +891,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C9731BA9D761C0CEA605B6BFF6DF3768</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AD44A88FBADB24FF419B54FABA48A574</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
 			<key>attributes</key>
@@ -866,36 +930,27 @@
 				<string>16CF86F9782BA34DAE2A061C21972DE9</string>
 			</array>
 		</dict>
-		<key>DDD743C09F769201EDB4096E84B8D63B</key>
+		<key>EF058703A6AC0B3897A09F102F228754</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1F8D7C319B41BAAC1DE1234B93FC183F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F6E92463C7B61F71B9A14E8C9F9E2481</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ZinkAlertActionSheet.m</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>ZinkAlertActionSheet/ZinkAlertActionSheet.m</string>
+			<string>ZinkAlertActionSheet-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E5678755E16F415B316E6FE2E4795A8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5E3AA2C80AB92351CC80420663126EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F5E3AA2C80AB92351CC80420663126EB</key>
+		<key>FDF75E362CDF21EAB16F2A31DF8F77DF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
